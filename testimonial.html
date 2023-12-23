@@ -69,12 +69,18 @@
                 <span class="s-3"> </span>
               </button>
             </div>
-            <div class="overlay-content">
-              <a class="" href="index.html"> Home <span class="sr-only">(current)</span></a>
-              <a class="" href="team.html"> Our Team</a>
-              <a class="active" href="testimonial.html"> Testimonial</a>
+            <div class="overlay-content menu">
+              <a class="active" href="index.html"> Home <span class="sr-only">(current)</span></a>
+              <a class="active" href="team.html"> Our Team</a>
+              <a class="active menu-item" href="testimonial.html" onmouseover="showSubItems('item1')" onmouseout="hideSubItems('item1')"> Testimonial</a>
+
+              <div id="item1" class="sub-items">
+                <div class="sub-item" onclick="location.href=' otherresult.html';">Other git hosting pages</div>
+                <div class="sub-item" onclick="location.href='otherpages.html';">Other git hosting pages</div>
+              </div>
             </div>
           </div>
+
           <a class="navbar-brand" href="index.html">
             <span>
               kimganghyeon's Git hosting Page
@@ -148,6 +154,48 @@
               <div class="client_detail">
                 <div class="client_name">
                   <div class="client_info">
+                    <a href="https://do04200611.github.io/arduino/">
+                      <h4>
+                        2023년 1학기 백앤드 팀 프로젝트 호스트 페이지
+                      </h4>
+                    </a>
+                    <span>
+                      Parante
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/client.jpg" alt="" />
+              </div>
+              <div class="client_detail">
+                <div class="client_name">
+                  <div class="client_info">
+                    <a href="https://do04200611.github.io/otherdata/">
+                      <h4>
+                        2023년 2학기에 배운 모바일 과제 모아놓은 호스페이지
+                      </h4>
+                    </a>
+                    <span>
+                      Parante
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/client.jpg" alt="" />
+              </div>
+              <div class="client_detail">
+                <div class="client_name">
+                  <div class="client_info">
                     <a href="https://do04200611.github.io/JavaScript/">
                       <h4>
                         2023년 1학기 과제 호스트 페이지
@@ -167,6 +215,8 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
         </ol>
       </div>
     </div>
